@@ -15,15 +15,7 @@ const Hero = () => {
                 </span>
                 <p className="text-orange-200 md:max-w-[600px] max-w-[450px]
                                 leading-7 text-center">
-                    Lalalalalalalalalalalalalalalalalalalalalalalalalalalalalal
-                    alalallalalalalalalalalalalalalalalalalalalalalalalalalalalala
-                    alalalalalalalalalalalalalalalalalalalalalaallalalalalallalalal
                 </p>
-                <div className="">
-                    <LogoDribbble />
-                    <LogoDeviantart />
-                    <LogoBehance />
-                    <LogoFigma />
                 </div>
             </div>
         </div>
