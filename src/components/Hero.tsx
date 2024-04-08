@@ -2,13 +2,15 @@ import {
     LogoInstagram,
     LogoGithub,
     LogoLinkedin,
-    LogoFigma,
+    LogoFigma
 } from "react-ionicons";
+import Navbar from "./Navbar.tsx";
 
 const Hero = () => {
     return (
         <div className="hero w-full h-screen flex items-center justify-center
                         md:px-[250px] px-5 relative">
+            <Navbar/>
             <div className="flex w-full flex-col gap-8 z-50 items-center
                             justify-center fixed top-[50%] left-[50%]
                             translate-x-[-50%] translate-y-[-50%]">
@@ -47,6 +49,7 @@ const Hero = () => {
                         width={"30px"}
                         height={"30px"}
                     />
+
                 </div>
                 <div className="flex w-full items-center justify-center gap-8">
                     <button className="text-white rounded-full bg-orange-400
