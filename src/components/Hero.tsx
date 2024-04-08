@@ -1,4 +1,9 @@
-import {LogoBehance, LogoDeviantart, LogoDribbble, LogoFigma} from "react-ionicons";
+import {
+    LogoInstagram,
+    LogoGithub,
+    LogoLinkedin,
+    LogoFigma,
+} from "react-ionicons";
 
 const Hero = () => {
     return (
@@ -6,7 +11,7 @@ const Hero = () => {
                         md:px-[250px] px-5 relative">
             <div className="flex w-full flex-col gap-8 z-50 items-center
                             justify-center fixed top-[50%] left-[50%]
-                            traslate-y-[-50% ]">
+                            translate-x-[-50%] translate-y-[-50%]">
                 <span className="md:text-4xl text-3xl font-semibold text-orange-100">
                     Hi, I'm Ilya
                 </span>
@@ -21,12 +26,44 @@ const Hero = () => {
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                     culpa qui officia deserunt mollit anim id est laborum.
                 </p>
-                <div className="">
-                    <LogoDribbble/>
-                    <LogoDeviantart/>
-                    <LogoBehance/>
-                    <LogoFigma/>
+                <div className="flex w-full items-center justify-center gap-5">
+                    <LogoInstagram
+                        color={"#fff"}
+                        width={"30px"}
+                        height={"30px"}
+                    />
+                    <LogoGithub
+                        color={"#fff"}
+                        width={"30px"}
+                        height={"30px"}
+                    />
+                    <LogoLinkedin
+                        color={"#fff"}
+                        width={"30px"}
+                        height={"30px"}
+                    />
+                    <LogoFigma
+                        color={"#fff"}
+                        width={"30px"}
+                        height={"30px"}
+                    />
                 </div>
+                <div className="flex w-full items-center justify-center gap-8">
+                    <button className="text-white rounded-full bg-orange-400
+                                        hover:bg-orange-500 transition-all
+                                        duration-300 w-fit px-5 py-3 font-medium"
+                    >Connect whit me</button>
+                    <button className="text-white animate-bounce rounded-full
+                                        border-2 border-orange-400 hover:bg-orange-500
+                                        transition-all duration-300 w-fit px-5 py-3
+                                        font-medium">
+                        See my work
+                    </button>
+                </div>
+            </div>
+            <div className="flex w-full h-full z-10 bg-[#120800] opacity-[0.82] absolute
+                            top-0 left-0">
+
             </div>
         </div>
     );
