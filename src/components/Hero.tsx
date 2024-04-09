@@ -17,7 +17,7 @@ const Hero = () => {
                 <span className="md:text-4xl text-3xl font-semibold text-orange-100">
                     Hi, I'm Ilya
                 </span>
-                <span className="md:text-7xl text-6xl font-semibold text-orange-200">
+                <span className="md:text-7xl text-6xl font-semibold text-orange-200 text-center">
                     Fullstack JS Developer
                 </span>
                 <p className="text-orange-200 md:max-w-[600px] max-w-[450px]
@@ -64,7 +64,7 @@ const Hero = () => {
                     </button>
                 </div>
             </div>
-            <div className="flex w-full h-full z-10 bg-[#120800] opacity-[0.82] absolute
+            <div className="flex w-full z-10 h-full bg-[#120800] opacity-[0.82] absolute
                             top-0 left-0">
 
             </div>
